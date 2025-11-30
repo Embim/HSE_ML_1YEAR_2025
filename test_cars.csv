@@ -1,0 +1,7 @@
+name,year,km_driven,fuel,seller_type,transmission,owner,mileage,engine,max_power,torque
+Maruti Swift VXI,2015,50000,Petrol,Individual,Manual,First Owner,18.5,1197,82,113
+Hyundai i20 Sportz,2018,30000,Diesel,Dealer,Manual,First Owner,22.0,1396,90,220
+Honda City ZX,2017,45000,Petrol,Individual,Automatic,Second Owner,17.4,1497,119,145
+Toyota Fortuner 4x4,2019,25000,Diesel,Dealer,Automatic,First Owner,10.0,2755,177,450
+Tata Nexon XZ,2020,15000,Petrol,Individual,Manual,First Owner,17.0,1199,120,170
+
