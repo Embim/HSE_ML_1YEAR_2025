@@ -4,13 +4,16 @@ import numpy as np
 import pickle
 import plotly.express as px
 import plotly.graph_objects as go
+import os
 
 st.set_page_config(page_title="Предсказание цен авто", layout="wide")
 st.title("Предсказание цен на автомобили")
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
 @st.cache_resource
 def load_model():
-    with open('model.pickle', 'rb') as f:
+    with open(os.path.join(SCRIPT_DIR, 'model.pickle'), 'rb') as f:
         return pickle.load(f)
 
 model_data = load_model()
